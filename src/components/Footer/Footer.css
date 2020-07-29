@@ -1,0 +1,21 @@
+.Footer{
+  padding:10px;
+  text-align: center;
+  color:white;
+  background-color:black;
+}
+
+.footerTitle{
+  font-size:25px;
+  font-weight: bold;
+}
+
+.madeBy{
+  font-size:22px;
+}
+
+.github{
+  font-size:20px;
+  color:white;
+  text-decoration: none;
+}
