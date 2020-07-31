@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './components/Header/Header';
 import Main from './components/Main/Main';
+import FuncVsClass from './components/Main/FuncVsClass';
 import Intro from './components/Main/Intro';
 import Footer from './components/Footer/Footer';
 
@@ -13,6 +14,7 @@ function App() {
       <Switch>
         <Route exact path='/'><Main></Main></Route>
         <Route exact path='/intro'><Intro></Intro></Route>
+        <Route exact path='/FuncVsClass'><FuncVsClass></FuncVsClass></Route>
       </Switch>
       <Footer></Footer>
     </div>
